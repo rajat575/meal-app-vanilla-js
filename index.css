@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+}
+#searchDiv {
+  position: absolute;
+  top: 200px;
+  z-index: 10;
+}
+.navBar {
+  color: white;
+  position: absolute;
+  top: 47px;
+  z-index: 9;
+  right: 100px;
+}
+
+.navBar div {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#headline {
+  color: white;
+  position: absolute;
+  top: 234px;
+  left: 368px;
+  z-index: 9;
+}
+.carousel {
+  width: auto;
+  height: 100vh;
+  opacity: 90%;
+}
+
+#inputBox {
+  width: 700px;
+  margin-left: 390px;
+  border-radius: 18px;
+  height: 40px;
+  margin-top: 146px;
+  border: none;
+  font-size: 16px;
+  padding-left: 30px;
+}
+#inputBox:focus {
+  border: none;
+  outline: none;
+}
+#suggestionBox {
+  margin-left: 18px;
+  background-color: white;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  max-height: 200px;
+  padding: 0px 0px 0px 20px;
+  overflow-y: scroll;
+}
+#outerBox {
+  margin-top: 50px;
+  border-radius: 18px;
+  margin-left: 390px;
+  visibility: hidden;
+  padding: 5px;
+  background-color: white;
+  width: 701px;
+}
+.suggestion {
+  cursor: pointer;
+  margin-top: 5px;
+  padding-left: 15px;
+  width: 500px;
+  display: inline-block;
+}
+
+#anchorDesc {
+  color: black;
+  text-decoration: none;
+}
+
+.suggestion:hover {
+  background-color: rgb(224, 223, 223);
+}
+
+/* .heart {
+  display: inline-block;
+  right: -200px;
+  text-align: left;
+} */
