@@ -14,6 +14,7 @@ Saving favorite recipes
 
 JavaScript (ES6)
 HTML/CSS
+Bootstrap
 External APIs used (the meal db API's)
 
 # 5. Screenshots
